@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: brown;
+    height: 100vh;
+}
+.digital-clock{
+    border: solid;
+   background-color: aqua;
+   margin-top: 50vh;
+   margin-left: 80vh;
+   margin-right: 80vh;
+   padding: 40px;
+   border-radius: 30px;
+}
+#hours{
+    line-height: 100px;
+    font-size: 8em;
+    background: -webkit-linear-gradient(80deg,gray,silver);
+    -webkit-text-fill-color: rgb(24, 171, 58);
+    -webkit-background-clip: text  
+}
+#dots{
+    font-size: 5em;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#minutes{
+    /*  */
+    font-size: 5em;
+    margin: 30px;
+    
+    /* margin-top: 50px; */
+}
+#pm{
+    font-size: 1.8em;
+    margin-left: 160px;
+    
+    
+}
+.display{
+    display: flex;
+}
+#seconds{
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+.f{
+    display: flex;
+}
